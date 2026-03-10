@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+fastapienv/
+
+# Database files
+*.db
+
+# IDE files
+.idea/
+
+# Environment variables
+.env
