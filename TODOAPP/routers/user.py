@@ -5,8 +5,8 @@ from starlette import status
 from sqlalchemy.orm import Session
 from passlib.context import CryptContext
 
-from models import Users
-from database import SessionLocal
+from ..models import Users
+from ..database import SessionLocal
 from .auth import get_current_user
 
 
